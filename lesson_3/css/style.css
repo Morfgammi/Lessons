@@ -1,0 +1,12 @@
+@import url(reset.css);
+
+.text {color: brown;
+}
+
+.texts{color: rgb(255, 64, 0);
+}
+
+div{
+    color: green;
+}
+#p-1 {color: rgb(127, 127, 255);}
