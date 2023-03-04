@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+@import url("reset.css");
+
+
+
+	.main__image, .main__image1{
+		margin-bottom: 100px;
+		width: 100%;
+	}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #6C757D;
+    font-weight: 300;}
+
+	[class*=__container]{
+		max-width: 1270px;
+		margin: 0 auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		}
+	
+
+		.article__text-blok {
+			max-width: 816px;
+			margin: 0 auto 80px;
+		}
+
+		.article__text-blok p{
+			line-height: 178.571429%; /* 25/14 */
+			margin-bottom: 30px;
+			margin-top: 30px;
+			
+		}
+
+		.article__tittle {
+			margin-top: 112px;
+			font-size: 25px;
+			color: #212529;
+			width: 605px;
+		}
+		.images{
+			font-size: 0;
+			border-radius: 5px
+		}
+		.image__img1, .image__img6, .article__images {
+			padding-right: 30px;
+			margin-bottom: 80px;
+		
+		}
+	.border{
+		text-align: center;
+				color: blue;
+		background-color: rgb(50, 205, 73);
+		font-size: 50px;
+	}
+
+	.blok1 { 
+		border: 5px solid red;
+		font-size: 30px;
+		background-color: darkorange;
+margin-left: 50px;
+margin-top: 50px;
+
+	}
+	.blok2 {border: 5px dashed rgb(0, 242, 255);
+		font-size: 30px;
+		background-color: rgb(255, 0, 208);
+margin-left: 50px;
+margin-top: 50px;
+	}
+	.blok3 {border: 5px dotted rgb(43, 0, 255);
+		font-size: 30px;
+		background-color: rgb(255, 234, 0);
+margin-left: 50px;
+margin-top: 50px;
+	}
+	.blok4 {border: 5px double rgb(255, 0, 0);
+		font-size: 30px;
+		background-color: rgb(85, 0, 255);
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+	.blok5 {border: 5px double rgb(222, 42, 42);
+		font-size: 40px;
+		background-color: rgb(2, 89, 2);
+		border-top: 6px solid rgb(255, 234, 0) ;
+		border-right: 4px solid rgb(0, 225, 255) ;
+		border-bottom: 8px solid rgb(255, 0, 55) ;
+		border-left: 2px solid rgb(255, 0, 132) ;
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+a{
+	color: darkblue;
+	font-size: 20px;
+	border-bottom: 1px dotted rgb(115, 249, 62);
+	}
+
+	.inline{
+		outline: 15px solid red;
+		margin-left: 50px;
+	}
+.blok6 {
+	margin-top: 10px;
+	outline: 10px solid blue;
+}
+.blok7 {
+	color: darkmagenta;
+	border-radius: 20px;
+	font-size: 40px;
+	background-color: darkgoldenrod;
+	margin-top: 10px;
+}
+.blok8 {
+	border-radius: 76% 24% 21% 79% / 71% 53% 47% 29% ;
+	background-color: fuchsia;
+	margin-top: 10px;
+}
+.blok9 {
+	color: gold;
+	background-color: dodgerblue;
+	font-size: 40px;
+	box-shadow: 4px 2px 7px 3px blue;
+	
+	
+}
+.circle {
+	opacity: 0.3;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(30, 128, 0);
+	border-radius: 50%;
+}
