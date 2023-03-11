@@ -1,0 +1,204 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:200,500,600,700,800,900&display=swap);
+
+.block {
+	font-family: Poppins, sans-serif;
+	background-image: url(../img/01.png);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	margin: 0 auto;
+	background-size: cover;
+	}
+
+.block__title {
+	color:#F8F9FA ;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 160%; /* 40/25 */
+}
+
+.block__text {
+		color: #E5E5E5;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 166.666667%; /* 20/12 */
+	padding-left: 100px;
+	padding-top: 365px;
+	padding-bottom: 100px; 
+}
+.block__text p{
+padding-bottom: 25px;
+}
+
+.block__text p:last-child{
+	padding-bottom: 0;
+	padding-top: 25px;
+}
+		
+.article {
+			font-family: Inter, sans-serif;
+			background:  url(../img/Vector\ 17.png) right 0 no-repeat,url(../img/Vector\ 18.png) right 0 no-repeat, #F4F7FF ;
+			background-repeat: no-repeat;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+		.article__container {
+			padding-top: 145px;
+			padding-left: 135px;
+			padding-bottom: 145px;
+		}
+		.article__container span{
+			margin-top: 145px;
+			font-family: inter, sans-serif;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 133.333333%; /* 24/18 */
+		color: #3056D3;
+		}
+		.article__container h2{
+			font-family: Inter, sans-serif;
+			font-size: 36px;
+			padding-top: 30px;
+		}
+		.article__container p {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%; /* 24/16 */
+		color: #637381;
+		}
+		.link{
+		margin-top: 25px;
+		font-family: inter, sans-serif;
+		display:inline-block;
+		color: #FFFFFF;
+		background: #3056D3;
+		border-radius: 30px;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 1.5; /* 24/16 */
+		text-align: center;
+		padding: 10px 30px;
+		}
+		.link:hover{
+			color: red;
+			background-color: rgb(255, 153, 0);
+		}
+	.article__container{
+		margin-right: 165px;
+		display: inline-block;
+	}
+	.image { 
+		display: inline-block;
+		padding-top: 80px;
+		}
+
+		.list {
+			color: #212B36;
+			font-family: poppins, serif;
+			margin-bottom: 21px;
+			padding-left: 11px;
+			padding-left: 11px;
+			
+		}
+		
+		.list__h2
+		{
+				background-color: rgb(136, 255, 0);
+				text-align: center;
+				color: rgb(255, 0, 208);
+				font-size: 50px;
+				margin-bottom: 20px;
+				margin-top: 20px;
+				}
+				.list__h2:hover{
+					color: orange;
+					background-color: darkred;
+				}
+				.link1{
+					color: #70034a;
+					background-color: #3056D3;
+					border-radius: 30px;
+					margin-left: 50%;
+				}
+				.link1:hover{
+					color: #700303;
+					background: #bdd330;
+					border-radius: 30px;
+										font-size:30px;
+					line-height: 1.5; /* 24/16 */
+					text-align: center;
+					
+					
+					background-color: green;
+					text-decoration: underline ;
+					
+				}
+		.list li{
+			min-height: 20px;
+			font-size: 35px;
+		
+		}
+
+
+		.list1 li{
+				background: url(../img/icons/Ellipse.svg) 0  / 25px no-repeat;
+				padding-left: 30px;
+				}
+				.list1 li:hover::after{
+					content: "()-()";
+					color: yellowgreen;
+					
+				}
+		
+		.list2 li{
+			background: url(../img/icons/checkmark.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+		}
+		.list2 li:active::before{
+			content: "((((()-())))";
+			color: rgb(205, 50, 50);
+			
+		}
+	
+		
+		.list3 li{
+			background: url(../img/icons/checkmark2.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+		}
+			.list3 li{
+			background: url(../img/icons/checkmark2.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+		}
+		.list3 li:hover{
+			color: green;
+		}
+		.list4 li{
+			background: url(../img/icons/Group.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+		}
+		.list5 li{
+			background: url(../img/icons/Vector.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+		}
+		.list6 li{
+			background: url(../img/icons/Vecto1.svg) 0  / 25px no-repeat;
+			padding-left: 30px;
+			
+		}
+
+		.blok__p-1 p:nth-child(odd){
+			color: green;
+			background-color: rgb(59, 29, 255);
+			font-size: 20px;
+		}
+		.blok__p-1 p:nth-child(3){
+		background-color: purple;
+		color: aqua;
+		}
+		.blok__p-1 p:last-child{
+			color: rgb(51, 0, 255);
+			background-color: deeppink;
+			font-size: 32px;
+		}
+		
