@@ -641,12 +641,10 @@ border-radius: 100px/50px;
 
 
 .car{
-
 background: url(../img/car/Group\ 2.png)  ;
 background-repeat: no-repeat;
-margin: 0 auto;
-background-size: cover;
-height: 832px;
+padding-bottom: 832px;
+background-size: 1280px 832px;
 z-index: 0;
 }
 .car__frame{
@@ -694,8 +692,8 @@ top: 660px;
 
 				.link{
 					position: absolute;
-					left: 410px;
-					top: 180px;
+					left: 330px;
+					top: 150px;
 					font-size: 25px;
 				}
 				.link:hover{
